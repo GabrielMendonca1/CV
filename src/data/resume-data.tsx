@@ -1,22 +1,3 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -25,7 +6,7 @@ export const RESUME_DATA = {
   location: "Salvador, BA, Brasil",
   locationLink: "https://maps.app.goo.gl/iT6PDbMjk9Vvox7f9",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Desenvolvedor Full Stack especializado em desenvolvimento de Software, com foco em Inteligência Artificial.",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
   avatarUrl: "https://avatars.githubusercontent.com/u/91131661?v=4",
@@ -54,38 +35,32 @@ export const RESUME_DATA = {
   education: [
     {
       school: "UCSAL",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      degree: "Atualmente estou cursando Engenharia de Software na Universidade Católica do Salvador (UCSal), onde estou adquirindo uma base robusta e abrangente em diversas áreas da computação.",
+      start: "2020",
+      end: "2026",
     },
     {
       school: "HarvardX CS50x",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
+      degree: "Concluí o curso CS50x de Harvard, uma introdução intensiva à ciência da computação. Este curso aprofundou meu entendimento em resolução de problemas complexos através do pensamento computacional, um aspecto crucial para o desenvolvimento eficaz de software. Durante o curso, fiz uso de várias linguagens de programação, incluindo C, Python, SQL, e JavaScript, que são fundamentais atualmente.",
       start: "2022",
       end: "2023",
     },
     {
       school: "One Bit Code Pro",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
+      degree: "Participei do One Bit Code Pro, um programa abrangente em tecnologia, que incluiu treinamento em Front-End, Back-End, Mobile, Python, Ruby, Ruby on Rails e No Code. Esta experiência ampliou minhas habilidades técnicas em diversas áreas-chave da programação e desenvolvimento de software.",
       start: "2021",
       end: "",
     },
     {
       school: "Alura / Alura Língua",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
+      degree: "Iniciei minha jornada acadêmica com esse curso fundamental que serviu como apoio essencial no meu primeiro semestre de faculdade. Este curso foi crucial para o meu entendimento dos termos técnicos da área e proporcionou uma base sólida para a introdução ao desenvolvimento de software.",
       start: "2021",
       end: "2022",
     },
     {
       school: "Cultura Inglesa",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
+      degree: "Minha jornada no aprendizado do idioma inglês iniciou-se precocemente aos 7 anos de idade no Colégio Antônio Vieira, onde desenvolvi uma base sólida na língua. Posteriormente, avancei para completar o nível Avançado na Cultura Inglesa, uma instituição renomada pela excelência no ensino do inglês.",
       start: "2012",
-      end: "2020",
-    },
-    {
-      school: "Colegio Antonio Vieira",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2010",
       end: "2020",
     },
   ],
@@ -95,7 +70,6 @@ export const RESUME_DATA = {
       link: "https://www.instagram.com/wgrepresentacoesltdaba?igsh=MXRna3U1dDBoMzlmNw==",
       badges: [],
       title: "TI",
-      logo: ParabolLogo,
       start: "2021",
       end: "2023",
       description:
@@ -106,7 +80,6 @@ export const RESUME_DATA = {
       link: "https://www.instagram.com/afpa.advogados?igsh=MTFpeDhmaW9lcXpycw==",
       badges: [],
       title: "Freelancer",
-      logo: ClevertechLogo,
       start: "2022",
       end: "2023",
       description:
@@ -128,65 +101,28 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Fluency Tech",
       techStack: [
-        "Side Project",
+        "React",
         "TypeScript",
-        "Next.js",
+        "JavaScript",
         "Vite",
-        "GraphQL",
-        "WebRTC",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "Uma empresa focada em technologia",
       link: {
-        label: "consultly.com",
+        label: "Fluency.com",
         href: "https://consultly.com/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Continuum Glow",
+      techStack: ["Nuxt", "Tailwind", "TypeScript", "JavaScript", "Python"],
       description:
         "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
       link: {
         label: "github.com",
         href: "https://jarocki.me/",
       },
     },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    }
   ],
 } as const;
