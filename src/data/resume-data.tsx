@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "Desenvolvedor Full Stack especializado em desenvolvimento de Software, com foco em Inteligência Artificial.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "Eu sou um estudante de Engenharia de Software com 21 anos, completamente fascinado por Software e Inteligência Artificial. O que me cativa é sobre como eles podem mudar o mundo. Estou sempre procurando aprender mais, seja em ambiente profissional ou em projetos pessoais.",
   avatarUrl: "https://avatars.githubusercontent.com/u/91131661?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -118,10 +118,10 @@ export const RESUME_DATA = {
       title: "Continuum Glow",
       techStack: ["Nuxt", "Tailwind", "TypeScript", "JavaScript", "Python"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Empresa de inovação tecnológica focada em desenvolvimento de software e inteligência artificial.",
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://github.com/ContinuumGlow",
       },
     },
   ],
