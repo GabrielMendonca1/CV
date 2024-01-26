@@ -21,32 +21,32 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Gabriel Ribeiro Mendonça",
-  initials: "BJ",
+  initials: "GRM",
   location: "Salvador, BA, Brasil",
   locationLink: "https://maps.app.goo.gl/iT6PDbMjk9Vvox7f9",
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/91131661?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "garimeipod@gmail.com",
+    tel: "+55 71 9 8179-7836",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/GabrielMendonca1",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/gabriel-ribeiro-mendon%C3%A7a-910692269/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/GabrielRMendon1",
         icon: XIcon,
       },
     ],
