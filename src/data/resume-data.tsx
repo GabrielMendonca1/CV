@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   summary:
     "Eu sou um estudante de Engenharia de Software com 21 anos, completamente fascinado por Software e Inteligência Artificial. O que me cativa é sobre como eles podem mudar o mundo. Estou sempre procurando aprender mais, seja em ambiente profissional ou em projetos pessoais.",
   avatarUrl: "https://avatars.githubusercontent.com/u/91131661?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://cv-grm.vercel.app/",
   contact: {
     email: "garimeipod@gmail.com",
     tel: "+55 71 9 8179-7836",
