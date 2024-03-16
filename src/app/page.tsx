@@ -98,6 +98,16 @@ export default function Page() {
             {RESUME_DATA.summary}
           </p>
         </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Habilidades Técnicas</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.skills.map((skill) => {
+              return <Badge key={skill}>{skill}</Badge>;
+            })}
+          </div>
+        </Section>
+        
         <Section> 
           <h2 className="text-xl font-bold">Experiência</h2>
           {RESUME_DATA.work.map((work) => {
@@ -138,6 +148,7 @@ export default function Page() {
             );
           })}
         </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Formação / Cursos</h2>
           {RESUME_DATA.education.map((education) => {
@@ -157,14 +168,6 @@ export default function Page() {
               </Card>
             );
           })}
-        </Section>
-        <Section>
-          <h2 className="text-xl font-bold">Habilidades Técnicas</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
-          </div>
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">
