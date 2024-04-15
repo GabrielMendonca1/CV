@@ -1,8 +1,8 @@
 
-Meu curriculo desenvolvido com next.js e tailwind 
+# Meu curriculo desenvolvido com next.js e tailwind 
 
 
 
-# License
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
