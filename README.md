@@ -1,4 +1,7 @@
 
+Meu curriculo desenvolvido com next.js e tailwind 
+
+
 
 # License
 
