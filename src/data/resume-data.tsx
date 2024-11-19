@@ -6,14 +6,13 @@ export const RESUME_DATA = {
   location: "Salvador, BA, Brasil",
   locationLink: "https://maps.app.goo.gl/iT6PDbMjk9Vvox7f9",
   about:
-    "Desenvolvedor Full Stack, com foco em Inteligência Artificial.",
+    "Engenheiro de Software Full Stack especializado em Inteligência Artificial",
   summary:
-    "Eu sou um estudante de Engenharia de Software com 21 anos, completamente fascinado por Software e Inteligência Artificial. Estou sempre procurando aprender mais, seja em ambiente profissional ou em projetos pessoais.",
+    "Engenheiro de Software especializado em Inteligência Artificial e Desenvolvimento de Soluções. Focado em expandir conhecimentos através de projetos inovadores, priorizando a construção de parcerias e soluções duradouras.",
   avatarUrl: "https://avatars.githubusercontent.com/u/91131661?v=4",
   personalWebsiteUrl: "https://cv-grm.vercel.app/",
   contact: {
-    email: "garimeipod@gmail.com",
-    tel: "+55 71 9 8179-7836",
+    email: "gabrielrm.email@gmail.com",
     social: [
       {
         name: "GitHub",
@@ -27,7 +26,7 @@ export const RESUME_DATA = {
       },
       {
         name: "X",
-        url: "https://twitter.com/GabrielRMendon1",
+        url: "https://x.com/gabrielrm_333",
         icon: XIcon,
       },
     ],
@@ -66,6 +65,16 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "SYSTEMA",
+      link: "https://www.linkedin.com/company/systema-gmbh/mycompany/verification/",
+      badges: [],
+      title: "Intern",
+      start: "06/2024",
+      end: "",
+      description:
+        "Estou tendo a oportunidade, de trabalhar em projetos de grandes empresas e tambem aprendendo com os melhores.",
+    },
+    {
       company: "WG",
       link: "https://www.instagram.com/wgrepresentacoesltdaba?igsh=MXRna3U1dDBoMzlmNw==",
       badges: [],
@@ -87,30 +96,30 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Java",
-    "JavaScript",
     "TypeScript",
-    "APIs",
-    "Python",
-    "React/Next.js",
-    "Nuxt/Vue.js",
-    "Node.js",
+    "JavaScript",
+    "Sap-ui5",
+    "Next",
+    "Vue",
+    "Node",
+    "Java",
     "PostgreSQL",
     "Spring Boot",
-    "Apache",
     "Docker",
     "Git",
-    "CSS/Tailwind",
   ],
   projects: [
     {
       title: "ICE",
-      techStack: ["Nuxt", "Tailwind", "AWS", "TypeScript", "JavaScript", "Python", "Next.js"],
+      techStack: [
+        "Nuxt",
+        "TypeScript",
+        "Node",],
       description:
-        "Empresa/Projeto-Pessoal em software e IA, construindo serviços personalizados para resolução de problemas open e closed source.",
+        "Empresa de software e IA, construindo serviços personalizados open e closed source.",
       link: {
         label: "github.com",
-        href: "https://github.com/Innovative-Compute-Enterprise",
+        href: "https://iceoficial.com/",
       },
     },
     {
@@ -119,8 +128,6 @@ export const RESUME_DATA = {
         "React",
         "TypeScript",
         "JavaScript",
-        "Node.js",
-        "Vite",
       ],
       description: "Uma empresa focada em desenvolvimento de software.",
       link: {
