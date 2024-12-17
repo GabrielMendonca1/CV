@@ -6,9 +6,9 @@ export const RESUME_DATA = {
   location: "Salvador, BA, Brasil",
   locationLink: "https://maps.app.goo.gl/iT6PDbMjk9Vvox7f9",
   about:
-    "Engenheiro de Software Full Stack especializado em Inteligência Artificial",
+    "Desenvolverdor Full Stack especializado em Inteligência Artificial",
   summary:
-    "Engenheiro de Software especializado em Inteligência Artificial e Desenvolvimento de Soluções. Focado em expandir conhecimentos através de projetos inovadores, priorizando a construção de parcerias e soluções duradouras.",
+    "Desenvolverdor full-stack em Inteligência Artificial e Desenvolvimento de Soluções. Focado em expandir conhecimentos através de projetos inovadores, priorizando a construção de parcerias e soluções duradouras.",
   avatarUrl: "https://avatars.githubusercontent.com/u/91131661?v=4",
   personalWebsiteUrl: "https://cv-grm.vercel.app/",
   contact: {
@@ -36,7 +36,7 @@ export const RESUME_DATA = {
       school: "UCSAL",
       degree: "Atualmente estou cursando Engenharia de Software na Universidade Católica do Salvador (UCSal), onde estou adquirindo uma base robusta e abrangente em diversas áreas da computação.",
       start: "2020",
-      end: "2026",
+      end: "2026/6",
     },
     {
       school: "HarvardX CS50x",
@@ -72,7 +72,7 @@ export const RESUME_DATA = {
       start: "06/2024",
       end: "",
       description:
-        "Estou tendo a oportunidade, de trabalhar em projetos de grandes empresas e tambem aprendendo com os melhores.",
+        "Estou tendo a oportunidade de trabalhar em projetos de grandes empresas e também aprendendo com os melhores, desenvolvendo back-end e front-end, desde sistemas legados até aplicações modernas.",
     },
     {
       company: "WG",
