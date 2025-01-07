@@ -104,6 +104,7 @@ export const RESUME_DATA = {
     "Node",
     "Java",
     "PostgreSQL",
+    "AI tools",
     "Spring Boot",
     "Docker",
     "Git",
