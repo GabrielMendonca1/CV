@@ -117,7 +117,7 @@ export const RESUME_DATA = {
         "TypeScript",
         "Node",],
       description:
-        "Empresa de software e IA, construindo serviços personalizados open e closed source.",
+        "Empresa de software e IA, construindo serviços personalizados e ferramentas para a humanidade",
       link: {
         label: "github.com",
         href: "https://iceoficial.com/",
