@@ -78,3 +78,19 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+/* Add styles for social buttons */
+@layer components {
+  a[data-social="discord"] {
+    @apply bg-indigo-600 text-white hover:bg-white hover:text-black; /* Discord colors (light/dark) */
+  }
+  a[data-social="github"] {
+    @apply bg-gray-900 text-white hover:bg-white hover:text-black; /* GitHub colors (light/dark) */
+  }
+  a[data-social="linkedin"] {
+    @apply bg-blue-900 text-white hover:bg-white hover:text-black; /* LinkedIn blue */
+  }
+  a[data-social="x"] {
+    @apply bg-black text-white hover:bg-white hover:text-black; /* X/Twitter colors (light/dark) */
+  }
+}

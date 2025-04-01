@@ -1,15 +1,13 @@
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, DiscordIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Gabriel Ribeiro Mendonça",
   initials: "GRM",
   location: "Salvador, BA, Brasil",
   locationLink: "https://maps.app.goo.gl/iT6PDbMjk9Vvox7f9",
-  about:
-    "Desenvolverdor Full Stack especializado em Inteligência Artificial",
+  about: "Engenheiro de Software - e/acc",
   summary:
-    "Desenvolverdor full-stack em Inteligência Artificial e Desenvolvimento de Soluções. Focado em expandir conhecimentos através de projetos inovadores, priorizando a construção de parcerias e soluções duradouras.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/91131661?v=4",
+  "Full-Stack especializado em Inteligência Artificial. Meu foco está na criação de produtos que resolvam problemas reais, combinando conhecimento técnico com visão estratégica para entregar valor.",  avatarUrl: "https://avatars.githubusercontent.com/u/91131661?v=4",
   personalWebsiteUrl: "https://cv-grm.vercel.app/",
   contact: {
     email: "gabrielrm.email@gmail.com",
@@ -26,41 +24,51 @@ export const RESUME_DATA = {
       },
       {
         name: "X",
-        url: "https://x.com/gabrielrm_333",
+        url: "https://x.com/bielzito33",
         icon: XIcon,
+      },
+      {
+        name: "Discord",
+        url: "",
+        icon: DiscordIcon,
       },
     ],
   },
   education: [
     {
       school: "UCSAL",
-      degree: "Atualmente estou cursando Engenharia de Software na Universidade Católica do Salvador (UCSal), onde estou adquirindo uma base robusta e abrangente em diversas áreas da computação.",
-      start: "2020",
+      degree:
+      "Curso Engenharia de Software na UCSal, instituição reconhecida pela excelência acadêmica e formação de profissionais qualificados em tecnologia. O curso proporciona base sólida em programação, design de interfaces, engenharia de requisitos, testes, desenvolvimento ágil e segurança cibernética.",
+      start: "2021",
       end: "2026/6",
     },
     {
       school: "HarvardX CS50x",
-      degree: "Concluí o curso CS50x de Harvard, uma introdução intensiva à ciência da computação. Este curso aprofundou meu entendimento em resolução de problemas complexos através do pensamento computacional, um aspecto crucial para o desenvolvimento eficaz de software, fiz uso de várias linguagens de programação, incluindo C, Python, SQL, e JavaScript, que são fundamentais atualmente.",
+      degree:
+        "​Concluí o curso CS50x da Universidade de Harvard, uma introdução intensiva e renomada à ciência da computação. Este curso aprimorou minha capacidade de resolver problemas complexos por meio do pensamento computacional, uma habilidade essencial para o desenvolvimento eficaz de software.",
       start: "2022",
       end: "2023",
     },
     {
-      school: "One Bit Code Pro",
-      degree: "Participei do One Bit Code Pro, um programa abrangente em tecnologia, que incluiu treinamento em Front-End, Back-End, Mobile, Python, Ruby, Ruby on Rails e No Code.",
-      start: "2021",
+      school: "Cultura Inglesa",
+      degree:
+        "Comecei a aprender inglês aos 6 anos no Colégio Antônio Vieira, completei o nível Avançado na Cultura Inglesa e aprimorei o idioma em viagens internacionais e nunca deixei de ter contato com o inglês. Hoje, sou fluente em inglês.",
+      start: "2012",
       end: "",
     },
     {
-      school: "Alura / Alura Língua",
-      degree: "Iniciei minha jornada acadêmica com esse curso fundamental que serviu como apoio essencial no meu primeiro semestre de faculdade. Este curso foi crucial para o meu entendimento dos termos técnicos da área e proporcionou uma base sólida.",
+      school: "One Bit Code Pro",
+      degree:
+        "Participei do One Bit Code Pro, um programa completo que cobriu Front-End, Back-End, Mobile, Python, Ruby, Ruby on Rails e No Code.",
       start: "2021",
-      end: "2022",
+      end: "2023",
     },
     {
-      school: "Cultura Inglesa",
-      degree: "Minha jornada no aprendizado do idioma inglês iniciou-se precocemente aos 6 anos de idade no Colégio Antônio Vieira, onde desenvolvi uma base sólida. Posteriormente, avancei para completar o nível Avançado na Cultura Inglesa, alem de um contato direto com a língua em viagens internacionais. Atualmente, falo e entendo inglês fluentemente.",
-      start: "2012",
-      end: "2020",
+      school: "Alura / Alura Língua",
+      degree:
+        "Fiz este curso básico que foi essencial no meu primeiro semestre, ajudando-me a compreender termos técnicos e estabelecer uma base sólida.",
+      start: "2021",
+      end: "2022",
     },
   ],
   work: [
@@ -70,7 +78,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Intern",
       start: "06/2024",
-      end: "",
+      end: "06/2025",
       description:
         "Estou tendo a oportunidade de trabalhar em projetos de grandes empresas e também aprendendo com os melhores, desenvolvendo back-end e front-end, desde sistemas legados até aplicações modernas.",
     },
@@ -78,11 +86,11 @@ export const RESUME_DATA = {
       company: "WG",
       link: "https://www.instagram.com/wgrepresentacoesltdaba?igsh=MXRna3U1dDBoMzlmNw==",
       badges: [],
-      title: "TI",
+      title: "Freelancer",
       start: "2021",
       end: "2024",
       description:
-        "Na WG,tive  a oportunidade de trabalhar em projetos como  criação e manutenção de um site, desenvolvi minhas habilidades em cloud na construcao de um back-end estrutural da empresa.",
+        "Na WG uma representante de calcaods com mais de 30 anos de mercado, tive  a oportunidade de trabalhar em projetos como  criação e manutenção de um site, desenvolvi minhas habilidades em cloud na construcao de um back-end estrutural da empresa para gereciamento de dados e notas fiscais.",
     },
     {
       company: "AFPA",
@@ -92,7 +100,7 @@ export const RESUME_DATA = {
       start: "06/2021",
       end: "2023",
       description:
-        "Como freelancer na AFPA, trabalhei na área de Social Media e TI. Essas experiências me permitiram desenvolver habilidades na resolução problemas.",
+        "Como freelancer na AFPA, trabalhei na área de Social Media e TI. Essas experiências me permitiram desenvolver habilidades na resolução de problemas e gerenciamento de dados.",
     },
   ],
   skills: [
@@ -112,10 +120,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "ICE",
-      techStack: [
-        "Nuxt",
-        "TypeScript",
-        "Node",],
+      techStack: ["Nuxt", "TypeScript", "Node"],
       description:
         "Empresa de software e IA, construindo serviços personalizados e ferramentas para a humanidade",
       link: {
@@ -125,11 +130,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Fluency Tech",
-      techStack: [
-        "React",
-        "TypeScript",
-        "JavaScript",
-      ],
+      techStack: ["React", "TypeScript", "JavaScript"],
       description: "Uma empresa focada em desenvolvimento de software.",
       link: {
         label: "Fluency.com",
